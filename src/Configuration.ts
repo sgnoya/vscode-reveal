@@ -54,6 +54,12 @@ export interface IDocumentOptions {
   parallaxBackgroundHorizontal: number | null
   parallaxBackgroundVertical: number | null
 
+  width: string,
+  height: string,
+  minScale: number,
+  maxScale: number,
+  margin: number,
+
   title: string // TODO : should take first big title or can be set
   layout: string
   logoImg: string | null
@@ -135,6 +141,12 @@ export const defaultConfiguration: Configuration = {
   parallaxBackgroundSize: '',
   parallaxBackgroundHorizontal: 0,
   parallaxBackgroundVertical: 0,
+
+  width: '100%',
+  height: '100%',
+  minScale: '1',
+  maxScale: '1',
+  margin: 0.01,
 
   slideExplorerEnabled: true,
   browserPath: null,

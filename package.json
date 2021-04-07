@@ -247,6 +247,31 @@
           "default": 0,
           "description": "Number of pixels to move the parallax background per slide"
         },
+        "revealjs.width": {
+          "type": "string",
+          "default": "100%",
+          "description": "Slide width"
+        },
+        "revealjs.hight": {
+          "type": "string",
+          "default": "100%",
+          "description": "Slide hight"
+        },
+        "revealjs.minScale": {
+          "type": "number",
+          "default": 1,
+          "description": "Minimum scaling value"
+        },
+        "revealjs.maxScale": {
+          "type": "number",
+          "default": 1,
+          "description": "Maximum scaling value"
+        },
+        "revealjs.margin": {
+          "type": "number",
+          "default": 0.01,
+          "description": "Slide margin"
+        },
         "revealjs.slideExplorerEnabled": {
           "type": "boolean",
           "default": true,
