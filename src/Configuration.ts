@@ -144,8 +144,8 @@ export const defaultConfiguration: Configuration = {
 
   width: '100%',
   height: '100%',
-  minScale: '1',
-  maxScale: '1',
+  minScale: 1,
+  maxScale: 1,
   margin: 0.01,
 
   slideExplorerEnabled: true,
